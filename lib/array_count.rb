@@ -8,6 +8,7 @@ def count_empty_strings(array)
   array.count do |element|
     #"".empty?
     #element."".empty?
-    element.any?(&:blank?)
+    #element.any?(&:blank?)
+    element.any?("".empty?)
   end
 end
