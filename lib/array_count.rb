@@ -9,7 +9,7 @@ def count_empty_strings(array)
   
   while index < array.count do
     #if array[index]"".empty?
-    if array[index] ('\n').empty?
+    if array[index]('\n').empty?
   end
   index += 1 
 end
