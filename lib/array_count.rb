@@ -9,7 +9,7 @@ def count_empty_strings(array)
     
     array.all?(&:blank?)
     #element.is_a? String
-    #element.empty?
+    #elementempty?
     #"".size == 0
     #"".empty?
     
