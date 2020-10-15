@@ -9,6 +9,6 @@ def count_empty_strings(array)
     #element.""?
     #String.empty?
     #element_is_a? "".empty?
-    "".blank?
+    "".empty?
   end
 end
