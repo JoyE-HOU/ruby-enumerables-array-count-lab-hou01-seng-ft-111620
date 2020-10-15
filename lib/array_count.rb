@@ -13,6 +13,7 @@ def count_empty_strings(array)
   end
   index += 1 
 end
+end
   #array.count do |element|
     #element.""?
     #String.empty?
