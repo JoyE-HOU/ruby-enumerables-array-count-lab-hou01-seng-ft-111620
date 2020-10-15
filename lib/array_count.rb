@@ -6,9 +6,9 @@ end
 
 def count_empty_strings(array)
   array.count do |element|
-    #element.""?
+    element.""?
     #String.empty?
     #element_is_a? "".empty?
-    "".empty? (element)
+    #"".empty?
   end
 end
