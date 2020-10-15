@@ -5,19 +5,10 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  index = 0 
-  
-  while index < array.count do
-    #if array[index]"".empty?
-    if array[index].empty?("")
-  end
-  index += 1 
-end
-end
-  #array.count do |element|
+  array.count do |element|
     #element.""?
     #String.empty?
     #element_is_a? "".empty?
     "".empty?
-  #end
-#end
+  end
+end
